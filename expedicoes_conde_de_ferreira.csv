@@ -1,0 +1,47 @@
+Navio,Tipologia,Armador,Capitao,Partida,Data_partida,Intermedio_1,Intermedio_2,Intermedio_3,Destino,Data_destino,Escravos_saida,Escravos_destino,Numero_mortes,Taxa_mortalidade
+Tejo,Bergantim,Joaquim Ferreira dos Santos,João Pereira da Silva,Rio de Janeiro,28/11/1817,Cabinda,-,-,Baía,19/08/1818,422,418,2,0.47
+Mercantil,Galé,Joaquim Ferreira dos Santos,Jacob Leandro da Silva,Rio de Janeiro,26/07/1819,Luanda,-,-,Rio de Janeiro,07/03/1820,530,472,58,10.94
+Mercantil,Galé,Joaquim Ferreira dos Santos,Jacob Leandro da Silva,Rio de Janeiro,05/06/1820,Luanda,-,-,Rio de Janeiro,26/12/1820,530,472,58,10.94
+Mercantil,Galé,Joaquim Ferreira dos Santos,Francisco de Paula Rodrigues,Rio de Janeiro,12/03/1821,Luanda,-,-,Rio de Janeiro,21/09/1821,743,683,60,8
+Tejo,Bergantim,Joaquim Ferreira dos Santos,"António Xavier de Oliveira e José Pereira de Sá",Rio de Janeiro,06/06/1821,Luanda,-,-,Rio de Janeiro,21/09/1821,388,368,20,5.15
+Mercantil,Galé,Joaquim Ferreira dos Santos,Francisco Manuel Rodrigues,Rio de Janeiro,28/11/1821,Luanda,-,-,Rio de Janeiro,25/07/1822,733,695,38,5.18
+Tejo,Bergantim,Joaquim Ferreira dos Santos,José Ferreira de Sá,Rio de Janeiro,15/01/1822,Luanda,-,-,Rio de Janeiro,09/09/1822,472,376,96,20.33
+Tejo,Bergantim,Joaquim Ferreira dos Santos,José Maria da Conceição,Rio de Janeiro,-,Benguela,-,-,Rio de Janeiro,05/01/1824,346,339,137,39.59
+Tejo,Bergantim,Joaquim Ferreira dos Santos,Francisco de Paula Rodrigues,Rio de Janeiro,30/12/1819,Cabinda,-,-,Rio de Janeiro,29/09/1824,558,556,2,0.35
+Regeneradora,Corveta,Joaquim Ferreira dos Santos,Bento José Francisco Fortes,Pernambuco,-,Luanda,-,-,Rio de Janeiro,26/07/1824,262,240,22,8.39
+Velha de Dio,Escuna,-,Inácio Gonçalves de Lima,Rio de Janeiro,26/08/1824,Luanda,-,-,Rio de Janeiro,12/02/1825,343,295,48,14
+Tejo,Bergantim,Joaquim Ferreira dos Santos,José António de Freitas Lisboa,-,22/11/1824,Cabinda,-,-,Rio de Janeiro,04/06/1825,648,587,61,9.41
+Regeneradora,Corveta,Joaquim Ferreira dos Santos,"Bento José Francisco Fortes e Graciano dos Santos",Rio de Janeiro,-,Luanda,-,-,Rio de Janeiro,29/11/1824,274,270,4,1.45
+Regeneradora,Corveta,-,-,Rio de Janeiro,-,Luanda,-,-,Rio de Janeiro,-/-/1824,475,436,39,8.21
+Activo,Brigue,"Francisco António de Oliveira e José António de Oliveira",José Pinto de Araújo,Pernambuco,17/08/1825,Badagry ,Freetown,-,Pernambuco,01/05/1826,183,163,20,10.92
+Activo,Brigue,Joaquim Ferreira dos Santos,Luciano Ireneu Alves,Rio de Janeiro,21/10/1825,Benguela,-,-,Rio de Janeiro,23/06/1826,639,538,101,15.80
+Torquato,Escuna,Joaquim Ferreira dos Santos,Graciano dos Santos,Rio de Janeiro,25/02/1826,Ambriz,-,-,Rio de Janeiro,04/12/1826,232,209,23,9.91
+Orestes,Brigue,"Joaquim Ferreira dos Santos
+Elias Batista da Silva",José Jacinto Pacheco,Pernambuco,30/03/1826,Luanda,-,-,Pernambuco,07/08/1826,476,454,22,4.62
+Tejo,Bergantim,Joaquim Teixeira de Macedo,Luiz José Maria,Rio de Janeiro,21/04/1826,Luanda,-,-,Rio de Janeiro,-,-,-,-,-
+Primoroso Divino,Brigue,Joaquim Ferreira dos Santos,Manuel António,Rio de Janeiro,-,Luanda,-,-,Rio de Janeiro,11/07/1826,490,472,18,3.67
+Activo,Brigue,-,José Dias Cupertino,Rio de Janeiro,15/09/1826,Luanda,-,-,Rio de Janeiro,22/12/1826,-,-,-,5
+Activo,Brigue,"Francisco Antônio de Oliveira
+José António de Oliveira
+Elias Batista Silva",José Pinto de Araújo Viana,Pernambuco,28/09/1826,Ambriz,-,-,Maranhão,11/04/1827,334,323,11,3.39
+Tejo,Bergantim,Joaquim Ferreira dos Santos,-,Luanda,20/11/1826,-,-,-,Rio de Janeiro,22/12/1826,230,233,(Mais)3,—-
+Orestes,Brigue,Joaquim Ferreira dos Santos,José Fortuna da Cunha,Rio de Janeiro,-,Luanda,-,-,Rio de Janeiro,23/01/1827,551,507,44,7.98
+Tejo,Bergantim,Joaquim Ferreira dos Santos,João Luís da Rosa,Rio de Janeiro,19/02/1827,Cabinda,-,-,Rio de Janeiro,07/01/1828,424,420,4,0.94
+Economia,Bergantim,Joaquim Ferreira dos Santos,Francisco Estêvão Correia Caldas,Rio de Janeiro,05/07/1827,Benguela,-,-,Rio de Janeiro,-,449,421,28,6.23
+Activo,Brigue,Joaquim Ferreira dos Santos,Miguel Ribeiro do Amaral,Rio de Janeiro,13/08/1827,Luanda,-,-,Rio de Janeiro,19/05/1828,558,530,28,5.01
+Activo,Brigue,-,Tomás José Carvão,Pernambuco,27/09/1827,Luanda,-,-,Rio de Janeiro,06/04/1828,372,368,4,1.07
+Feliz Eugénia,Galé,Joaquim Ferreira dos Santos,Diogo Cândido Martins,Pernambuco,-,Luanda,-,-,Rio de Janeiro,20/11/1827,720,687,33,4.58
+Primoroso Divino,-,Joaquim Ferreira dos Santos,Joaquim Viana,Rio de Janeiro,-,Luanda,-,-,Rio de Janeiro,06/12/1827,440,436,4,0.90
+Velha de Dio,Escuna,-,Luiz Queirós de Monteiro Regadas,Rio de Janeiro,-,Ambriz,-,-,Rio de Janeiro,18/12/1827,230,230,0,0
+Economia,Bergantim,Joaquim Ferreira dos Santos,Francisco Estêvão Correia Caldas,Rio de Janeiro,11/03/1828,Benguela,-,-,Rio de Janeiro,14/11/1828,428,403,25,5.84
+Tejo,Bergantim,Joaquim Ferreira dos Santos,Luiz Queirós de Monteiro Regadas,Rio de Janeiro,26/04/1828,Benguela,-,-,Rio de Janeiro,16/01/1829,562,543,19,3.39
+Activo,Bergantim,-,"Miguel Ribeiro do Amaral e José Gonçalves",Rio de Janeiro,05/05/1828,Luanda,Rio de Janeiro,-,Rio de Janeiro,-,559,539,20,3.57
+Venus,Brigue,Joaquim Ferreira dos Santos,Silvestre Manuel Pereira da Costa,Rio de Janeiro,-,Ambriz,-,-,Rio de Janeiro,23/08/1828,508,480,28,5.51
+Primoroso Divino,Bergantim,Joaquim Ferreira dos Santos,Simão da Rocha Munoz,Rio de Janeiro,30/10/1828,Luanda,-,-,Rio de Janeiro,02/06/1829,400,376,24,6
+Economia,Bergantim,Joaquim Ferreira dos Santos,Francisco Estêvão Correia Caldas,Rio de Janeiro,05/12/1828,Benguela,-,-,Rio de Janeiro,03/08/1829,371,332,39,10.51
+Novo Activo,Bergantim,"Joaquim Ferreira dos Santos
+Francisco António de Oliveira ",José Francisco Jorge,Pernambuco,24/01/1829,Ambriz ,Rio de Janeiro,-,Pernambuco,-,244,237,7,2.86
+Primoroso Divino,Bergantim,Joaquim Ferreira dos Santos,José Fernandes de Olivera,Rio de Janeiro,29/06/1829,Luanda,-,-,Rio de Janeiro,04/12/1829,455,398,57,12.52
+Activo,Bergantim,-,Miguel Ribeiro de Amaral,Rio de Janeiro,-,Luanda,-,-,Rio de Janeiro,27/10/1829,645,602,43,6.66
+Tejo,Bergantim,Joaquim Ferreira dos Santos,Luiz Queirós de Monteiro Regadas,Rio de Janeiro,-,Benguela,-,-,Rio de Janeiro,28/10/1829,566,536,30,5.30
+Amália,Galé,Joaquim Ferreira dos Santos,José Ferreira Maia,Rio de Janeiro,-,Lourenço Marques,-,-,Rio de Janeiro,10/12/1829,800,783,17,2.12

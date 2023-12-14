@@ -1,0 +1,107 @@
+[{
+  "id": "caminha",
+  "titulo": "Caminha",
+  "local": "caminha"
+},
+{
+"id": "felgueiras",
+"titulo": "Felgueiras",
+"local": "felgueiras"
+},
+{
+"id": "matosinhos",
+"titulo": "Matosinhos",
+"local": "matosinhos"
+},
+{
+"id": "melgaco",
+"titulo": "Melgaço",
+"local": "melgaço"
+},
+{
+"id": "vinhais",
+"titulo": "Vinhais",
+"local": "Vinhais"
+},
+{
+"id": "porto",
+"titulo": "Porto",
+"local": "porto"
+},
+{
+"id": "lanhoso",
+"titulo": "Póvoa de Lanhoso",
+"local": "lanhoso"
+},
+{
+"id": "meda",
+"titulo": "Mêda",
+"local": "meda"
+},
+{
+"id": "oli_hospital",
+"titulo": "Oliveira do Hospital",
+"local": "oli"
+},
+{
+"id": "ovar",
+"titulo": "Ovar",
+"local": "ovar"
+},
+
+  {
+    "id": "ourem",
+    "titulo": "Ourem",
+    "local": "ourem"
+  },
+{
+"id": "penalva",
+"titulo": "Penalva do Castelo",
+"local": "penalva"
+},
+{
+"id": "sao_sul",
+"titulo": "São Pedro do Sul",
+"local": "sao"
+},
+{
+"id": "trancoso",
+"titulo": "Trancoso",
+"local": "trancoso"
+},
+{
+"id": "vila_rei",
+"titulo": "Vila de Rei",
+"local": "vila"
+},
+{
+"id": "poiares",
+"titulo": "Vila Nova de Poiares",
+"local": "poiares"
+},
+{
+"id": "oeiras",
+"titulo": "Oeiras",
+"local": "oeiras"
+},
+{
+"id": "tomar",
+"titulo": "Tomar",
+"local": "tomar"
+},
+{
+"id": "sal",
+"titulo": "Alcacér do Sal",
+"local": "sal"
+},
+{
+"id": "odemira",
+"titulo": "Odemira",
+"local": "odemira"
+},
+{
+"id": "loule",
+"titulo": "Loulé",
+"local": "loule"
+
+}]

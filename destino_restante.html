@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!--  <script src="https://d3js.org/d3.v7.min.js"></script>-->
+    <script src="d3.v7.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-path@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-shape@3"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   <script src="script_restante.js"></script>
+
+
+    <meta charset="UTF-8">
+    <title>Destino da Fortuna(Restante)</title>
+
+
+</head>
+
+<body>
+<!--Código para o pop-up da visualização do destino Restante-->
+<div class="ajuda" class="hidden">
+    <div class="fundo"></div>
+    <div class="ajuda_texto">
+        <div id="info_ajuda_img_restante"><img src="imagens/fechar_branco.png" alt=""></div>
+        <h2>Saber Mais</h2>
+
+        <p>O gráfico apresentado é um <b>Diagrama de Barras Circular</b>.
+            <br><br> Cada linha representa um destino para a fortuna deixada em herança por Joaquim Ferreira dos Santos.
+            <br>As barras partem todas na mesma origem e tem o fim no valor da fortuna que lhes foi atríbuido.
+            <br><br> Para saber o local de destino de cada quantia de dinheiro basta passar o cursor pelas linhas.</p>
+
+    </div>
+</div>
+<div class="menu_aberto" style="margin-right: -100%;">
+    <div class="menu_aberto_interno">
+        <div class="ordem">
+            <ul>
+                <li><a href="index.html">1.Página Inicial</a></li>
+                <li><a href="index.html#projeto">2.Saber Mais sobre o Projeto</a></li>
+                <li><a href="trafico.html">3.Tráfico de Pessoas Escravizadas</a></li>
+                <li><a href="destino.html">4.Destino da Fortuna</a></li>
+
+            </ul>
+        </div>
+        <div class="cruz">
+            <div class="cruz_img"><img src="imagens/fechar.png" alt=""></div>
+        </div>
+    </div>
+
+</div>
+
+<header>
+    <div class="seta"><img src="imagens/seta_lateral.png" alt=""></div>
+    <div class="nome_topo">
+        <a href="index.html"><p>Conde de Ferreira e o seu Legado</p></a>
+    </div>
+    <div class="hamburger"><img src="imagens/hamburger.png" alt=""></div>
+</header>
+
+<div id="svg4">
+
+    <h2>Destino da Fortuna - Fortuna Restante</h2>
+    <div class="botoes_destino">
+        <a href="destino.html"><button type="button">Principais Locais</button></a>
+        <a href="destino_restante.html"> <button type="button">Fortuna Restante</button></a>
+
+    </div>
+    <div id="grafico_restante">
+
+
+    </div>
+
+    <!--Tooltip-->
+    <div id="tooltip_restante" class="hidden">
+        <h3><span id="titulo_r"> </span></h3>
+
+        <p><span id="valores_restante_"></span></p>
+    </div>
+
+
+</div>
+<div class="ajuda_abrir_restante">
+    <h2>Saber Mais</h2>
+</div>
+</body>
+</html>

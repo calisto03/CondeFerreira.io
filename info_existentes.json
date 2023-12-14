@@ -1,0 +1,364 @@
+[
+  {
+    "id": "alijo",
+    "titulo": "Alijó",
+    "local": "alijo"
+
+  },
+  {
+    "id": "amarante",
+    "titulo": "Amarante",
+    "local": "amarante"
+  },
+  {
+    "id": "arcos",
+    "titulo": "Arcos de Valdevez",
+    "local": "arcos!"
+
+  },
+  {
+    "id": "arouca",
+    "titulo": "Arouca",
+    "local": "arouca!"
+  },
+  {
+    "id": "baiao",
+    "titulo": "Baião",
+    "local": "baiao!"
+
+  },
+  {
+    "id": "durraes",
+    "titulo": "Tregosa e Durrães",
+    "local": "durraes!"
+  },
+  {
+    "id": "cast_paiva",
+    "titulo": "Castelo de Paiva",
+    "local": "cast"
+
+  },
+  {
+    "id": "espinho",
+    "titulo": "Espinho",
+    "local": "espinho"
+  },
+  {
+    "id": "fafe",
+    "titulo": "Fafe",
+    "local": "fafe"
+
+  },
+  {
+    "id": "vimioso",
+    "titulo": "Vimioso",
+    "local": "vimioso"
+  },
+  {
+    "id": "gondomar",
+    "titulo": "Gondomar",
+    "local": "gondomar"
+
+  },
+  {
+    "id": "marco",
+    "titulo": "Marco de Canaveses",
+    "local": "marco"
+  },
+  {
+    "id": "mogadouro",
+    "titulo": "Mogadouro",
+    "local": "mogadouro"
+
+  },
+  {
+    "id": "oli_azemeis",
+    "titulo": "Oliveira de Azeméis",
+    "local": "oli"
+  },
+  {
+    "id": "paredes",
+    "titulo": "Paredes",
+    "local": "paredes"
+
+  },
+  {
+    "id": "pa_coura",
+    "titulo": "Paredes de Coura",
+    "local": "pa"
+  },
+  {
+    "id": "penafiel",
+    "titulo": "Penafiel",
+    "local": "penafiel"
+
+  },
+  {
+    "id": "povoa",
+    "titulo": "Póvoa de Varzim",
+    "local": "povoa"
+  },
+  {
+    "id": "sabrosa",
+    "titulo": "Sabrosa",
+    "local": "sabrosa"
+  },
+  {
+    "id": "santa",
+    "titulo": "Santa Maria da Feira",
+    "local": "santa"
+  },
+  {
+    "id": "sao_joao",
+    "titulo": "São João da Madeira",
+    "local": "sao"
+  },
+  {
+    "id": "tabuaco",
+    "titulo": "Tabuaço",
+    "local": "tabuaco!"
+  },
+  {
+    "id": "valongo",
+    "titulo": "Valongo",
+    "local": "valongo"
+  },
+  {
+    "id": "conde",
+    "titulo": "Vila do Conde",
+    "local": "cila conde"
+  },
+  {
+    "id": "foz_coa",
+    "titulo": "Vila Nova de Foz Côa",
+    "local": "coa"
+  },
+  {
+    "id": "agueda",
+    "titulo": "Águeda",
+    "local": "agueda"
+  },
+  {
+    "id": "albergaria",
+    "titulo": "Albergaria-a-Velha",
+    "local": "albergaria"
+  },
+  {
+    "id": "alvaiazare",
+    "titulo": "Alvaiázere",
+    "local": "alvaia"
+  },
+  {
+    "id": "arganil",
+    "titulo": "Arganil",
+    "local": "arganil"
+  },
+  {
+    "id": "cantanhede",
+    "titulo": "Cantanhede",
+    "local": "cantanhede"
+  },
+  {
+    "id": "carregal",
+    "titulo": "Carregal do Sal",
+    "local": "carregal"
+  },
+  {
+    "id": "cas_branco",
+    "titulo": "Castelo Branco",
+    "local": "branco"
+  },
+  {
+    "id": "daire",
+    "titulo": "Castro Daire",
+    "local": "daire"
+  },
+  {
+    "id": "celorico",
+    "titulo": "Celorico da Beira",
+    "local": "celorico"
+  },
+  {
+    "id": "condeixa",
+    "titulo": "Condeixa-a-Nova",
+    "local": "condeixa"
+  },
+  {
+    "id": "estarreja",
+    "titulo": "Estarreja",
+    "local": "estarreja"
+  },
+  {
+    "id": "figueira",
+    "titulo": "Figueira da Foz",
+    "local": "foz"
+  },
+  {
+    "id": "fundao",
+    "titulo": "Fundão",
+    "local": "fundao"
+  },
+  {
+    "id": "gois",
+    "titulo": "Góis",
+    "local": "gois"
+  },
+  {
+    "id": "lousa",
+    "titulo": "Lousã",
+    "local": "lousa"
+  },
+  {
+    "id": "montemor",
+    "titulo": "Montemor-o-Velho",
+    "local": "velho"
+  },
+  {
+    "id": "oli_frades",
+    "titulo": "Oliveira de Frades",
+    "local": "frades"
+  },
+  {
+    "id": "oli_bairro",
+    "titulo": "Oliveira do Bairro",
+    "local": "bairro!"
+  },
+  {
+    "id": "pinhel",
+    "titulo": "Pinhel",
+    "local": "pinhel"
+  },
+  {
+    "id": "comba_dao",
+    "titulo": "Santa Comba Dão",
+    "local": "dao"
+  },
+  {
+    "id": "serta",
+    "titulo": "Sertã",
+    "local": "serta"
+  },
+  {
+    "id": "tabua",
+    "titulo": "Tábua",
+    "local": "tabua"
+  },
+  {
+    "id": "tondela",
+    "titulo": "Tondela",
+    "local": "tondela"
+  },
+  {
+    "id": "vouzela",
+    "titulo": "Vouzela",
+    "local": "vouzela"
+  },
+  {
+    "id": "alcochete",
+    "titulo": "Alcochete",
+    "local": "alcochete"
+  },
+  {
+    "id": "alenquer",
+    "titulo": "Alenquer",
+    "local": "alenquer"
+  },
+  {
+    "id": "almada",
+    "titulo": "Almada",
+    "local": "almada"
+  },
+  {
+    "id": "arruda",
+    "titulo": "Arruda dos Vinhos",
+    "local": "arruda"
+  },
+  {
+    "id": "barreiro",
+    "titulo": "Barreiro",
+    "local": "barreiro"
+  },
+  {
+    "id": "chamusca",
+    "titulo": "Chamusca",
+    "local": "chamusca"
+  },
+  {
+    "id": "cascais",
+    "titulo": "Cascais",
+    "local": "cascais"
+  },
+  {
+    "id": "ferreira",
+    "titulo": "Ferreira do Zêzere",
+    "local": "zezere"
+  },
+  {
+    "id": "moita",
+    "titulo": "Moita",
+    "local": "moita"
+  },
+  {
+    "id": "montijo",
+    "titulo": "Montijo",
+    "local": "montijo"
+  },
+  {
+    "id": "seixal",
+    "titulo": "Seixal",
+    "local": "seixal"
+  },
+  {
+    "id": "sesimbra",
+    "titulo": "Sesimbra",
+    "local": "sesimbra"
+  },
+  {
+    "id": "setubal",
+    "titulo": "Setúbal",
+    "local": "olá teste!"
+  },
+  {
+    "id": "sintra",
+    "titulo": "Sintra",
+    "local": "sintra"
+  },
+  {
+    "id": "torres",
+    "titulo": "Torres Novas",
+    "local": "torres"
+  },
+  {
+    "id": "alvito",
+    "titulo": "Alvito",
+    "local": "alvito"
+  },
+  {
+    "id": "cuba",
+    "titulo": "Cuba",
+    "local": "cuba"
+  },
+  {
+    "id": "mont_novo",
+    "titulo": "Montemor-o-Novo",
+    "local": "novo"
+  },
+  {
+    "id": "moura",
+    "titulo": "Moura",
+    "local": "moura"
+  },
+  {
+    "id": "cacem",
+    "titulo": "Santiago do Cacém",
+    "local": "cacem"
+  },
+  {
+    "id": "lagos",
+    "titulo": "Lagos",
+    "local": "lagos!"
+  }
+]
+
+
+

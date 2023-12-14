@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>-->
+       <script src="d3.v7.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Destino da Fortuna</title>
+
+</head>
+
+<body>
+
+
+<!--div proveniente de tooltip-->
+<div id="div_tooltip" class="hidden">
+    <div class="fundo_div"></div>
+    <div class="tooltip_texto">
+      <div id="info_tooltip_img"><img src="imagens/fechar_branco.png" alt=""></div>
+        <div class="conteudo_destino">
+       <!-- <div class="conteudo_destino_img">
+        <img id ="img_escolas" src="imagens/escola.jpeg" alt="escola "></div>--> 
+            <div class="conteudo_destino_texto">
+        <h2></h2>
+        <h3></h3>
+        <p id="lat_ex"></p>
+        <p id="long_ex"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--div proveniente de tooltip-->
+<div id="div_tooltip_hospital" class="hidden">
+    <div class="fundo_div"></div>
+    <div class="tooltip_texto">
+        <div id="info_tooltip_img_hospital"><img src="imagens/fechar_branco.png" alt=""></div>
+        <div class="conteudo_destino">
+               <!-- <div class="conteudo_destino_img">
+                <img id ="img_hospital" src="imagens/hospital_conde.jpeg" alt="hospital"></div>--> 
+            <div class="conteudo_destino_texto_hosp">
+                <h2></h2>
+                <h3></h3>
+                <p id="lat_hosp"></p>
+                <p id="long_hosp"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="ajuda" class="hidden">
+    <div class="fundo"></div>
+    <div class="ajuda_texto">
+        <div id="info_ajuda_img_destino"><img src="imagens/fechar_branco.png" alt=""></div>
+        <h2>Saber Mais</h2>
+
+        <p>O gráfico apresentado é um mapa de Portugal com <b>pontos distribuídos pelo país.</b>
+            <br>    <br> Cada um dos pontos presentes representa Escolas, existentes ou demolidas (num total de 120), e um Hospital. 
+            Para obter mais informações sobre as diferenças entre os pontos, o utilizador pode aceder à opção "Legenda", presente no lado direito do ecrã.
+            <br>   <br>  Se o utilizador quiser saber informações sobre cada um dos locais, basta passar o cursor por cima do ponto; se quiser saber a localização desse edifício, 
+            basta fazer um click com o rato por cima do ponto em questão."</p>
+
+    </div>
+</div>
+
+
+
+<div class="menu_aberto" style="margin-right: -100%;">
+    <div class="menu_aberto_interno">
+    <div class="ordem">
+    <ul>
+        <li><a href="index.html">1.Página Inicial</a></li>
+        <li><a href="index.html#projeto">2.Saber Mais sobre o Projeto</a></li>
+        <li><a href="trafico.html">3.Tráfico de Pessoas Escravizadas</a></li>
+        <li><a href="destino.html">4.Destino da Fortuna</a></li>
+
+    </ul>
+    </div>
+    <div class="cruz">
+        <div class="cruz_img"><img src="imagens/fechar.png" alt=""></div>
+    </div>
+    </div>
+
+</div>
+
+
+<header>
+    <div class="seta"><img src="imagens/seta_lateral.png" alt=""></div>
+<div class="nome_topo">
+    <a href="index.html"><p>Conde de Ferreira e o seu Legado</p></a>
+</div>
+    <div class="hamburger"><img src="imagens/hamburger.png" alt=""></div>
+</header>
+
+<div class="ajuda_abrir_destino">
+    <h2>Saber Mais</h2>
+</div>
+
+
+<div id="svg3">
+    <h2>Destino da Fortuna - Principais Locais</h2>
+    <div class="botoes_destino">
+        <a href="destino.html"><button type="button">Principais Locais</button></a>
+        <a href="destino_restante.html"> <button type="button">Fortuna Restante</button></a>
+
+    </div>
+
+
+
+    <div id="legenda_destino" style="margin-right: -400px;">
+    <h2 class="legendaDestino">Legenda</h2>
+        <div id="legenda_interior">
+            <div class="leg_int">
+                <p>Escola Conde de Ferreira Existente</p>
+                <img src="imagens/circulo_ex.svg" alt="circulo existentes">
+            </div>
+            <div class="leg_int">
+                <p>Escola Conde de Ferreira Demolida</p>
+                <img src="imagens/circulo_dem.svg" alt="circulo demolidas">
+            </div>
+            <div class="leg_int">
+                <p>Hospital Conde de Ferreira</p>
+                <img src="imagens/retangulo_hospital.svg" alt="retangulo hospital">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="grafico_fortuna">
+
+    </div>
+    <!--Tooltip-->
+    <div id="tooltip_existentes" class="hidden">
+        <h3><span id="titulo_e">Escolas Existentes</span></h3>
+        <p></p>
+
+    </div>
+
+    <div id="tooltip_demolidas" class="hidden">
+        <h3><span id="titulo_d">Escolas Demolidas</span></h3>
+        <p></p>
+
+    </div>
+
+    <div id="tooltip_hospital" class="hidden">
+        <h3><span id="titulo_h">Hospital</span></h3>
+        <p></p>
+
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>

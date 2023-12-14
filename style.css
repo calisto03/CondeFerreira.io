@@ -1,0 +1,1332 @@
+*{padding:0;
+margin:0;}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    max-height: 100vh;
+    scroll-behavior: smooth;
+    scroll-padding: 7em;
+}
+
+@font-face {
+    font-family: "IBM_Regular";
+    src: url(IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+    }
+
+@font-face {
+    font-family: "IBM_Medium";
+    src: url(IBM_Plex_Mono/IBMPlexMono-Medium.ttf);}
+
+b{
+    font-family: "IBM_Medium";
+}
+
+.menu_aberto{position: absolute;
+background-color: #F4F4F4;
+width:100%;
+right: 0;
+margin-right:-100%;
+transition: 0.9s;
+height: 100vh;
+z-index:4;
+padding-top: 50px;
+}
+
+.menu_aberto li{
+    font-family: IBM_Medium;
+    font-size:100px;
+    margin-bottom: 30px;
+    list-style: none;
+    line-height: 200px;
+}
+
+.menu_aberto a {
+    text-decoration: none;
+    color: black;
+}
+.menu_aberto a:hover{cursor: pointer;
+    text-decoration-line: line-through;
+    transition: 0.9s;
+}
+
+.menu_aberto li:hover{cursor: pointer;
+    text-decoration-line: line-through;
+    transition: 0.9s;}
+
+.menu_aberto_interno{display: flex;
+width: 95%;
+margin-right: auto;
+margin-left: auto;
+justify-content: space-evenly;}
+
+.cruz{margin-top: 10px;}
+
+.cruz_img:hover{cursor: pointer;}
+
+.cruz_img img{width: 55px;
+height: 55px;}
+
+body{
+    background-color: #F4F4F4;
+}
+
+h1{
+    font-family: IBM_Medium;
+
+}
+#corpo{display: grid;
+width: 100%;
+grid-template-rows:90vh;
+    scroll-behavior: smooth;
+    scroll-padding: 7em;}
+
+#corpo_interno{ display: table;
+    margin-top: auto;
+    margin-bottom: auto;
+height: auto;}
+
+#corpo h1{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+   text-align: center;
+    margin-bottom: 60px;
+    font-size: 60px;
+    word-break: break-word;
+}
+
+#botoes_pagina_um{display: flex;
+justify-content: space-between;
+    width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+
+button{
+    background-color: #333333;
+    font-family: "IBM_Regular", serif;
+    font-size: small;
+    border: none;
+    width: 300px;
+    height: 75px;
+    cursor: pointer;
+    color:white;
+    font-size: 20px;
+}
+
+
+
+#grafico{
+    order: 1;
+}
+
+.mini{
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #333333;
+    border: none;
+    cursor: pointer;
+    margin-top: -150px;
+    order: 2;
+}
+
+
+.mini h2{
+    color: white;
+    font-family: IBM_Medium;
+    margin-right: auto;
+    margin-left: auto;
+  margin-top: 12px;
+    margin-bottom: auto;
+    padding_top:-5px
+
+}
+
+button:hover{background-color: #5e5e5e;}
+
+#informacao{
+bottom: 0;
+width: 100vh;
+margin-left: auto;
+margin-right: auto;
+}
+
+#projeto{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#projeto h3{
+    font-family: IBM_Regular;
+    margin-bottom: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#projeto p{
+    font-family: IBM_Regular;
+    font-size: 24px;
+    line-height: 37px;
+}
+
+#projeto li{
+    font-family: IBM_Regular;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+
+}
+
+.info_imagem{width: 50px;
+margin-right: auto;
+margin-left: auto;
+    }
+
+#informacao img{
+    width: 50px;
+    height: 30px;
+}
+
+
+#informacao p{
+    font-family: IBM_Regular;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+    color:black;
+
+
+}
+
+#informacao a{text-decoration: none;}
+
+header{display: flex;
+width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+justify-content: space-between;
+align-items: center;
+margin-top: 15px;}
+
+#informacao_trafico {
+    margin-top: 0px;
+}
+
+#informacao_trafico img{
+    width: 66px;
+    height: 41px;
+}
+
+#informacao_trafico p{
+    font-family: IBM_Regular;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+    color:black;
+}
+
+#info_ajuda_img_mini img{
+    width: 55px;
+    margin-left: 90%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#informacao_trafico a{text-decoration: none;}
+
+
+.seta img{
+      height: 70px;
+    width: 53px;
+}
+
+
+
+.seta :hover{
+    cursor: pointer;
+}
+
+.hamburger img{
+    height: 53px;
+    width: 61px;
+    cursor: pointer;
+}
+
+.ajuda_abrir_trafico{
+    position:relative;
+    top: 800px;
+    width: 150px;
+    height: 75px;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.ajuda_abrir_trafico h2{
+    font-family: IBM_Medium;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+#info_ajuda_img_trafico img{
+    width: 50px;
+    margin-left: 88%;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+.ajuda_abrir_mini{
+    position:sticky;
+    top: 800px;
+    width: 150px;
+    height: 75px;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+
+.ajuda_abrir_mini h2{
+    font-family: IBM_Medium;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.ajuda_abrir_restante{
+    position:absolute;
+    top: 800px;
+    width: 150px;
+    height: 75px;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.ajuda_abrir_restante h2{
+    position: absolute;
+    font-family: IBM_Medium;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+/*filtros*/
+
+.filtro{position: absolute;
+    right: 0;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    background-color: #333333;
+    top:150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    padding: 10px 20px;
+    margin-right: -495px;
+    transition: 0.9s;
+
+
+
+}
+
+
+.filtro h2{
+    font-family: IBM_Medium;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing:5px;
+    writing-mode: vertical-rl;
+    margin-top: 40%;
+    margin-left: -5px;
+    cursor: pointer;
+
+}
+
+/*pop up de ajuda*/
+.ajuda{
+    
+    position: absolute;
+    width:100% ;
+    height: 100vh;
+    z-index: 3;
+   display: none;
+
+}
+
+.ajuda.hidden{
+    display: none;
+}
+
+
+.ajuda_texto{position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    width: 700px;
+   height:750px;
+    background-color: #1c1c1c;
+    top:300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    transition: 0.9s;
+}
+
+.ajuda_texto h2{
+    color: white;
+    font-family: IBM_Medium;
+    font-size: 40px;
+    letter-spacing:5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ajuda_texto p{
+    color: white;
+    font-family: IBM_Regular;
+    font-size: 21px;
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 15px;
+}
+
+#info_ajuda_img img{
+    width: 50px;
+    margin-left: 88%;
+    margin-top: 33px;
+    cursor: pointer;
+    
+}
+
+#info_tooltip_img img{
+  width: 50px;
+    margin-left: 88%;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+#info_tooltip_img_hospital img{
+  width: 50px;
+    margin-left: 88%;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+
+/*pop up de detalhe*/
+.detalhes{
+    position: absolute;
+    width:100% ;
+    height: 100vh;
+    display: none;
+    z-index: 3;
+
+}
+
+.detalhes_texto{position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    width: 650px;
+    height: 450px;
+    background-color: #1c1c1c;
+    top:400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    transition: 0.9s;
+}
+
+.detalhes_texto h2{
+    color: white;
+    font-family: IBM_Medium;
+    font-size: 40px;
+    letter-spacing:5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.detalhes_texto h3{
+    color: white;
+    font-family: IBM_Medium;
+    font-size: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.detalhes_texto p{
+    color: white;
+    font-family: IBM_Regular;
+    font-size: 21px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#detalhe_ajuda_img_um img{
+    width: 50px;
+    margin-left: 87%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#detalhe_ajuda_img_dois img{
+     width: 50px;
+    margin-left: 87%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#detalhe_ajuda_img_tres img{
+    width: 50px;
+    margin-left: 87%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#detalhe_ajuda_img_quatro img{
+   width: 50px;
+    margin-left: 87%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#detalhe_ajuda_img_cinco img{
+     width: 50px;
+    margin-left: 87%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#detalhe_ajuda_img_seis img{
+    width: 50px;
+    margin-left: 87%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/*-------------------*/
+#img_escolas {
+width: 250px;
+}
+
+#img_hospital{
+    width: 250px;
+}
+
+.conteudo_destino{display: flex;
+width: 80%;
+    height: 70%;
+margin:auto;}
+
+/*.conteudo_destino_img{
+    margin-top:auto;
+    margin-bottom: auto;
+}*/
+
+.conteudo_destino_texto{
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    
+}
+
+.conteudo_destino_texto h3{ 
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    font-family: IBM_Medium !important;
+    text-align: center !important;
+    margin-bottom: 5px;
+    
+}
+
+.conteudo_destino_texto h2{ 
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    font-family: IBM_Medium!important;
+    text-align: center!important;
+    margin-bottom: 5px;
+    
+}
+
+.conteudo_destino_texto p{ 
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    font-family: IBM_Regular!important;
+    text-align: center !important;
+    margin-bottom: 5px;
+   
+    
+}
+
+.conteudo_destino_texto_hosp{
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+}
+
+
+
+
+.conteudo_destino_texto_hosp h3{ 
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    font-family: IBM_Medium !important;
+    text-align: center !important;
+    margin-bottom: 5px;
+    
+}
+
+.conteudo_destino_texto_hosp h2{ 
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    font-family: IBM_Medium!important;
+    text-align: center!important;
+    margin-bottom: 5px;
+    
+}
+
+.conteudo_destino_texto_hosp p{ 
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    font-family: IBM_Regular!important;
+    text-align: center !important;
+    margin-bottom: 5px;
+   
+    
+}
+
+
+
+
+
+.fundo {position: absolute;
+    width: 100%;
+height:100%;
+background-color: white;
+opacity: 0.7;
+}
+
+.ajuda_abrir_vida{
+    position:relative;
+    top: 800px;
+    width: 150px;
+    height: 75px;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.ajuda_abrir_vida h2{
+    font-family: IBM_Medium;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.subir{
+    position:sticky;
+    top: 980px;
+    width: 80px;
+    height: 80px;
+    background-color: #333333;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+.subir img{
+    margin-top: 15px;
+    width: 70px;
+    height: 50px;
+
+}
+
+/*----------------------------------------------------------------------------------*/
+.nome_topo p{font-family: IBM_Regular;
+font-size: 18px;
+color: black;}
+
+.nome_topo a{text-decoration: none;}
+
+#svg h2 {
+    font-family: IBM_Medium;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30pt;
+}
+
+
+
+.ordem ul{
+    margin-top: 67px;}
+
+#quem_foi{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#quem_foi h3{
+    font-family: IBM_Regular;
+    margin-bottom: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+#grafico svg{margin-right: auto;
+margin-left: auto;
+width: 100%;
+height:50%;
+}
+
+#grafico_restante svg{
+
+    margin-right: auto;
+margin-left: auto;
+width: 100%;
+height: 100vh;
+}
+#grafico_fortuna svg{
+    margin-right: auto;
+margin-left: auto;
+width: 100%;
+}
+
+#mudaCursor{
+    cursor:url("imagens/cursor.svg"),auto;
+}
+
+
+.wrapper{
+    /*margin-top: 80px;*/
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 950px;
+    row-gap: 3%;
+    }
+
+.wrapper p{
+    text-align: center;
+}
+
+
+
+/*Comparar Navios*/
+
+
+
+#titulo_wrapper{
+    margin-top: 100px;
+    font-family: IBM_Medium;
+    text-align: center;
+
+
+}
+
+#titulo_wrapper h2{
+    font-size: 30pt;
+}
+
+.svg_navio{height: 100%;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.svg_navio h2 {
+    font-family: IBM_Medium;
+    font-size: 25px;
+    text-align: center;
+}
+
+#grafico_compara{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#graficoCompara_capitaes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+      margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+#graficoCompara_tipologia{
+    width: 100%;
+    height: 100%;
+    display: flex;
+      margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+#graficoCompara_mortalidade{
+    width: 100%;
+    height: 100%;
+    display: flex;
+      margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+#graficoCompara_datas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+      margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+#graficoCompara_navegar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+      margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+
+#mais_compara{
+text-align: left!important;
+margin-left: 20px;
+}
+
+/*Comparar Fortuna do Conde*/
+
+#svg3 h2 {
+    font-family: IBM_Medium;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.botoes_destino button{
+    width: 225px!important;
+    height: 75px!important;
+    border-radius: 0px;
+    font-size:20px;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #333333;
+}
+
+.botoes_destino button:hover{background-color: #5e5e5e;}
+
+.botoes_destino {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#div_tooltip{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width:100% ;
+    height: 100vh;
+    z-index: 4;
+
+}
+
+
+#div_tooltip.hidden{
+    display: none;
+}
+
+#div_tooltip_hospital{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width:100% ;
+    height: 100vh;
+    z-index: 4;
+
+}
+#div_tooltip_hospital.hidden{
+    display: none;
+}
+
+.fundo_div{position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: white;
+    opacity: 0.7;}
+
+
+
+.tooltip_texto{position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    width: 650px;
+    height: 450px;
+    background-color: #1c1c1c;
+    top:400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    transition: 0.9s;
+
+}
+
+.tooltip_texto h2{
+    color: white;
+    font-family: IBM_Medium;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20pt;
+}
+
+.tooltip_texto h3{
+    color: white;
+    font-family: IBM_Medium;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 18pt;
+
+}
+
+.tooltip_texto p{
+    color: white;
+    font-family: IBM_Regular;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    font-size:18pt
+}
+
+
+/*Restante da Fortuna do Conde*/
+
+
+#svg4 h2 {
+    font-family: IBM_Medium;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30pt;
+}
+
+path.arc {
+    opacity: 0.9;
+    transition: opacity 0.5s;
+}
+
+path.arc:hover {
+
+    opacity: 0.7;
+}
+
+.axis line, .axis circle  {
+    stroke: #cccccc;
+    stroke-width: 1px
+}
+
+.axis circle {
+    fill: none;
+}
+
+.r.axis text {
+    text-anchor: end
+}
+
+#info_ajuda_img_restante img{
+   width: 50px;
+    margin-left: 88%;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+
+/*Tooltip*/
+#tooltip{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+
+
+}
+#tooltip.hidden{
+    display: none;
+}
+#tooltip h3{
+    font-size: 14pt;
+    font-family: IBM_Regular, monospace;
+    color:#FFFFFF;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#tooltip p{
+    font-size: 13pt;
+    font-family:IBM_Regular, monospace;
+    color:#FFFFFF;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/*Tooltip viagens navios*/
+
+
+
+#tooltipViagensNavio{
+    position: absolute;
+    width: 170px;
+    height: auto;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+
+}
+
+#tooltipViagensNavio.hidden{
+    display: none;
+}
+
+#tooltipViagensNavio p{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16pt;
+    font-family:IBM_Medium, monospace;
+    color: #f5f5f5;
+}
+
+/*Tooltip Viagem sem Pessoas*/
+#tooltipSemPess{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+
+}
+
+#tooltipSemPess.hidden{
+    display: none;
+}
+
+#tooltipSemPess p{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13pt;
+    font-family:IBM_Regular, monospace;
+    color: #f5f5f5;
+}
+
+
+
+
+/*tooltip para a vida do Conde*/
+#tooltip_vida{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+
+}
+#tooltip_vida.hidden{
+    display: none;
+}
+#tooltip_vida h3{
+    font-size: 8pt;
+    font-family: IBM_Regular, monospace;
+    color: #ffffff;
+    padding-left: 5px;
+}
+#tooltip_vida p{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13pt;
+
+    font-family:IBM_Regular, monospace;
+    color: #ffffff;
+}
+
+
+/*tooltip para os edificios existentes*/
+#tooltip_existentes{
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+
+}
+#tooltip_existentes.hidden{
+    display: none;
+}
+#tooltip_existentes h3{
+    font-size: 15pt;
+    font-family: IBM_Medium, monospace;
+    color:#FFFFFF;
+    padding-left: 5px;
+    margin-top: 9px;
+}
+#tooltip_existentes p{
+    font-size: 14pt;
+    font-family:IBM_Regular, monospace;
+    color:#FFFFFF;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 9px;
+}
+/*tooltip para os edificios demolidos*/
+#tooltip_demolidas{
+    position: absolute;
+     width: 280px;
+    height: 100px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+
+}
+#tooltip_demolidas.hidden{
+    display: none;
+}
+#tooltip_demolidas h3{
+    font-size: 15pt;
+    font-family: IBM_Medium, monospace;
+    color:#FFFFFF;
+    padding-left: 5px;
+    margin-top: 9px;
+}
+#tooltip_demolidas p{
+  font-size: 14pt;
+    font-family:IBM_Regular, monospace;
+    color:#FFFFFF;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 9px;
+}
+/*tooltip para o hospital*/
+#tooltip_hospital{
+    position: absolute;
+    width: 230px;
+    height: 100px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+
+}
+#tooltip_hospital.hidden{
+    display: none;
+}
+#tooltip_hospital h3{
+   font-size: 15pt;
+    font-family: IBM_Medium, monospace;
+    color:#FFFFFF;
+    padding-left: 5px;
+    margin-top: 9px;
+}
+
+#tooltip_hospital p{
+    font-size: 14pt;
+    font-family:IBM_Regular, monospace;
+    color:#FFFFFF;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 9px;
+}
+
+/*tooltip para a vida do Conde*/
+#tooltip_restante{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+
+
+}
+#tooltip_restante.hidden{
+    display: none;
+}
+#tooltip_restante h3{
+    font-size: 15pt;
+    font-family: IBM_Medium, monospace;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#tooltip_restante p{
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14pt;
+    font-family:IBM_Regular, monospace;
+    color: #ffffff;
+}
+
+
+#legenda_destino{
+    position: absolute;
+    right: 0;
+    top: 600px;
+    width: 415px;
+    height: 350px;
+    background-color: #333333;
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    margin-right: -400px;
+    padding: 10px 20px;
+    transition: 0.9s;
+
+}
+#legenda_destino h2{
+    position: absolute;
+font-family: IBM_Medium;
+color: #FFFFFF;
+font-size: 21px;
+letter-spacing:8px;
+writing-mode: vertical-rl;
+margin-left: -433px;
+cursor: pointer;
+margin-top: 115px;}
+
+#legenda_destino p{
+    font-family: IBM_Medium;
+    color: #FFFFFF;
+    font-size: 18px;
+text-align: left;
+}
+
+#legenda_destino img{
+    width: 35px;
+    height: 35px;
+}
+
+#legenda_interior{margin-top: 80px;}
+
+.leg_int{display: flex;
+width: 75%;
+justify-content: space-between;
+margin-left: 90px;
+margin-top: 20px;}
+
+.ajuda_abrir_destino{
+    position:absolute;
+    top: 800px;
+    width: 150px;
+    height: 75px;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.ajuda_abrir_destino h2{
+    font-family: IBM_Medium;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+#info_ajuda_img_destino img{
+   width: 50px;
+    margin-left: 88%;
+    margin-top: 33px;
+    cursor: pointer;
+
+}
+
+
+
+#partida{
+    position: relative;
+    top: 290px;
+    left: 148px;
+    font-family: IBM_Regular;
+    font-size: 10px;
+    color: gainsboro;}
+
+
+
